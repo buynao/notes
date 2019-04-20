@@ -20,6 +20,10 @@
 
 [面试题：lazyman](https://github.com/buynao/notes/blob/master/javascript/lazyman/index.js)
 
+## 数据结构
+
+[链表](https://github.com/buynao/notes/blob/master/dataStructure/linkedList/index.js))
+ 
 ## MongoDB
 
 > 在使用mongoddb搭建博客平台时常用的一些方法
