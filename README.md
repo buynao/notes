@@ -8,15 +8,17 @@
 
 > 浏览器相关知识
 
-[缓存](https://github.com/buynao/notes/blob/master/browser/%E7%BC%93%E5%AD%98.md)
+[http cache](https://github.com/buynao/notes/blob/master/browser/httpCache.md)
 
 ## Javascript
 
-> 一些关于JS的笔记
+> 关于JS的学习笔记
 
-[单线程](https://github.com/buynao/notes/blob/master/javascript/%E5%8D%95%E7%BA%BF%E7%A8%8B.md)
+[单线程](https://github.com/buynao/notes/blob/master/javascript/singleThreaded.md)
 
-[数组迭代方法汇总](https://github.com/buynao/notes/blob/master/javascript/%E6%95%B0%E7%BB%84%E7%9A%84%E8%BF%AD%E4%BB%A3%E6%96%B9%E6%B3%95%E7%AE%80%E8%AE%B0.md)
+[数组迭代方法汇总](https://github.com/buynao/notes/blob/master/javascript/array/iteration.md)
+
+[面试题：lazyman](https://github.com/buynao/notes/blob/master/javascript/lazyman/index.js)
 
 ## MongoDB
 
