@@ -28,6 +28,10 @@
 [二叉搜索树](https://github.com/buynao/notes/blob/master/dataStructure/binarySearchTree/index.js)
 - 增删改查
 - 遍历：递归&非递归
+
+## 算法
+
+[01背包问题](https://github.com/buynao/notes/blob/master/algorithm/01knapsack/index.js)
  
 ## MongoDB
 
