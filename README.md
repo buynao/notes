@@ -22,7 +22,12 @@
 
 ## 数据结构
 
-[链表](https://github.com/buynao/notes/blob/master/dataStructure/linkedList/index.js))
+[链表](https://github.com/buynao/notes/blob/master/dataStructure/linkedList/index.js)
+- 增删改查
+
+[二叉搜索树](https://github.com/buynao/notes/blob/master/dataStructure/binarySearchTree/index.js)
+- 增删改查
+- 遍历：递归&非递归
  
 ## MongoDB
 

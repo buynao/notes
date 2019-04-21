@@ -138,3 +138,21 @@ lk.append(2);
 lk.append(3);
 lk.indexOf(1);
 lk.print();
+
+
+const obj = {
+    name: 'jsCoder',
+    skill: ['es6', 'react', 'angular'],
+    say: function () {
+        var that = this;
+        for (let i = 1; i <= that.skill.length; i++) {
+            console.log(i);
+            setTimeout(() => {
+                console.log(`No. ${i} ${that.name}`);
+                console.log(that.skill[i])
+            });
+        }
+    }
+}
+
+obj.say();
