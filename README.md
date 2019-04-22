@@ -32,6 +32,12 @@
 ## 算法
 
 [01背包问题](https://github.com/buynao/notes/blob/master/algorithm/01knapsack/index.js)
+
+[经典排序](https://github.com/buynao/notes/blob/master/algorithm/sort/index.js)
+- 冒泡排序
+- 选择排序
+- 插入排序
+- 归并排序
  
 ## MongoDB
 
