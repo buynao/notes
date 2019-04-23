@@ -9,10 +9,11 @@ var swap = function (arr, i, j) {
     arr[j] = temp;
 }
 // 无序数组
-var arr = [2, 1, 4, 6, 8, 5];
+var arr = [2, 1, 4, 6, 8, 5, 0, 2];
 
 /**
- * 1. 冒泡排序 
+ * 1. 冒泡排序
+ * 每轮找到最大的元素，两两比较，依次类推
  */
 var bubbleSort = function (arr) {
     for (var i = 0; i < arr.length; i++) {
@@ -29,19 +30,18 @@ bubbleSort(arr.slice())
 
 /**
  * 2. 选择排序
- * 找到最小的元素，让他和第一个数组进行交互，依次类推，与第二个，第三个交换
+ * 每轮找到最小的元素，让他和第一个数组进行交互，依次类推，与第二个，第三个交换
  */
 var selectionSort = function (arr) {
     for (var i = 0; i < arr.length; i++) {
-        var min = arr[i];
+        var min = i;
         for (var j = i + 1; j < arr.length; j++) {
-            if (arr[j] < min) {
-                var temp = min;
-                min = arr[j];
-                arr[j] = temp;
+            if (arr[j] < arr[min]) {
+                min = j;
             }
         }
-        arr[i] = min;
+        // 每次循环后，找到一个最小的值进行替换
+        swap(arr, min, i)
     }
     console.log(`选择排序：${arr}`);
 }
@@ -110,3 +110,62 @@ var merge = function(l, r) {
 }
 
 console.log(`归并排序：${mergeSort(arr.slice())}`)
+
+/**
+ * 5. 快速排序
+ * 分治思想
+ * 找到一个基准点，做排序
+ * 循环到所有基准点就位即可
+ */
+
+ var quickSort = function(arr) {
+    _quickSort(arr, 0, arr.length - 1);
+    return arr;
+}
+
+ var _quickSort = function(arr, l, r) {
+    if (l >= r) {
+        return;
+    }
+    var point = parition(arr, l, r);
+    _quickSort(arr, l, point - 1)
+    _quickSort(arr, point + 1, r)
+ }
+
+ var parition = function (arr, l, r) {
+    var pv = arr[l]; // 目标比较节点
+    var k = l + 1; // 保留i的位置最后替换
+    for (var i = k; i <= r; i++) {
+        var arri = arr[i];
+        if (arri < pv) {
+            swap(arr, i, k++)
+        }
+    }
+    swap(arr, l, k - 1);
+    return k - 1;
+ }
+
+ console.log(`快速排序：${quickSort(arr.slice())}`)
+
+ /**
+  * 6. 希尔排序
+  * 分组执行插入排序
+  */
+
+  var ShellSort = function(arr) {
+    for (var gap = ~~(arr.length / 2); Math.round(gap) >= 1; gap /= 2) {
+        for (var i = Math.round(gap); i < arr.length; i++) {
+            var j = i;
+            while(j - gap >= 0) {
+                if (arr[j] < arr[j - gap]) {
+                    swap(arr, j, j - gap);
+                }
+                j -= gap;
+            }
+        }
+    }
+    return arr;
+  }
+
+
+ console.log(`希尔排序：${ShellSort(arr.slice())}`)
