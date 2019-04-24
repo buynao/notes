@@ -4,11 +4,15 @@
 
 **记录一些自己的学习笔记**
 
-## 浏览器相关
+## CSS
 
-> 浏览器相关知识
+> 关于css的学习笔记
 
-[http cache](https://github.com/buynao/notes/blob/master/browser/httpCache.md)
+[Layout](https://github.com/buynao/notes/blob/master/css/layout/style.css)
+- 双列布局float：左定宽，右自适应
+- 三列布局float：左右定宽，中自适应
+- 三列布局position：左右定宽，中自适应
+- 三列布局圣杯布局：左右定宽，中自适应
 
 ## Javascript
 
@@ -19,6 +23,13 @@
 [数组迭代方法汇总](https://github.com/buynao/notes/blob/master/javascript/array/iteration.md)
 
 [面试题：lazyman](https://github.com/buynao/notes/blob/master/javascript/lazyman/index.js)
+
+
+## 浏览器相关
+
+> 浏览器相关知识
+
+[http cache](https://github.com/buynao/notes/blob/master/browser/httpCache.md)
 
 ## 数据结构
 

@@ -1,16 +1,26 @@
 
 /**
  * 交换方法
- * @param {*} arr 
  */
 var swap = function (arr, i, j) {
     var temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
 }
+/**
+ * 
+ */
+var buildArr = function (num, random) {
+    var arr = [];
+    var i = 0;
+    while(i++ < num) {
+        arr[i] = Math.round(Math.random() * random);
+    }
+    return arr;
+}
 // 无序数组
-var arr = [2, 1, 4, 6, 8, 5, 0, 2];
-
+var arr = [12, 23, 31, 52, 17, 24, 15, 92, 0, 8, 67];
+console.log(`原始数组：${arr}`)
 /**
  * 1. 冒泡排序
  * 每轮找到最大的元素，两两比较，依次类推
@@ -124,7 +134,7 @@ console.log(`归并排序：${mergeSort(arr.slice())}`)
 }
 
  var _quickSort = function(arr, l, r) {
-    if (l >= r) {
+    if (l > r) {
         return;
     }
     var point = parition(arr, l, r);
@@ -153,15 +163,19 @@ console.log(`归并排序：${mergeSort(arr.slice())}`)
   */
 
   var ShellSort = function(arr) {
-    for (var gap = ~~(arr.length / 2); Math.round(gap) >= 1; gap /= 2) {
-        for (var i = Math.round(gap); i < arr.length; i++) {
-            var j = i;
-            while(j - gap >= 0) {
-                if (arr[j] < arr[j - gap]) {
-                    swap(arr, j, j - gap);
-                }
-                j -= gap;
+    var len = arr.length;
+    var temp;
+    var gap = 1;
+    while(gap < len / 3) {          //动态定义间隔序列
+        gap = gap * 3 + 1;
+    }
+    for (gap; gap > 0; gap = Math.floor(gap/3)) {
+        for (var i = gap; i < len; i++) {
+            temp = arr[i];
+            for (var j = i-gap; j >= 0 && arr[j] > temp; j -= gap) {
+                arr[j + gap] = arr[j];
             }
+            arr[j + gap] = temp;
         }
     }
     return arr;
