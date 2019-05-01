@@ -24,12 +24,20 @@
 
 [面试题：lazyman](https://github.com/buynao/notes/blob/master/javascript/lazyman/index.js)
 
+[ES5实现bind,call,apply](https://github.com/buynao/notes/blob/master/javascript/bind/index.js)
+
 
 ## 浏览器相关
 
 > 浏览器相关知识
 
 [http cache](https://github.com/buynao/notes/blob/master/browser/httpCache.md)
+
+[TCP协议：三次握手，四次挥手](https://www.processon.com/view/link/5cc6e156e4b09b16ffcd25d2)
+
+## 前端工程化相关
+
+[webpack脑图](http://assets.processon.com/chart_image/5cc2c012e4b06bcc138d6d6e.png?_=1556543302476)
 
 ## 数据结构
 
@@ -50,8 +58,9 @@
 - 插入排序
 - 归并排序
 - 快速排序
-- 希尔排序
  
+[回溯法](https://github.com/buynao/notes/blob/master/algorithm/Backtracking/index.js)
+
 ## MongoDB
 
 > 在使用mongoddb搭建博客平台时常用的一些方法
