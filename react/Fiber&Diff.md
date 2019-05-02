@@ -37,7 +37,7 @@ fiber reconciler：
 - 添加优先级策略，通过过期时间
   
 ### 何时开始diff
-- performWork -> performWorkOnRoot -> renderRoot -> workLoop -> performUnitOfWork -> begionWork -> updateHostComponent -> reconcileChildren -> reconcileChildFibers(开始) -> 。。。 -> commitAllHostEffects(更新effectTag) -> 
+- scheduleWork -> requestWork -> performWork -> performWorkOnRoot -> renderRoot -> workLoop -> performUnitOfWork -> beginWork -> updateHostComponent -> reconcileChildren -> reconcileChildFibers(开始) -> 。。。 -> commitAllHostEffects(更新effectTag) -> 
 
 ## 怎么diff
 
@@ -56,7 +56,7 @@ fiber reconciler：
 - 当reconciliation结束后，根节点的 effect list 里记录了包括 DOM change 在内的所有 side effect
 
 ### 阶段二：commit
-- 在调度后，commit阶段，会通过commitAllHostEffects函数，根据effectTag标记识别dom的操作类型
+- 在调度后，commit阶段，取到reconciliation阶段产生的EffectList，会通过commitAllHostEffects函数进行遍历更新，根据effectTag标记识别dom的操作类型
 - 此函数主要是遍历EffectList，根据nextEffect.effectTag，调用对应commit方法
   1. update = 4 -> ommitWork(nextEffect.alternate, nextEffect);
   2. Placement = 2 -> commitPlacement(nextEffect)
