@@ -27,6 +27,10 @@
 [ES5实现bind,call,apply](https://github.com/buynao/notes/blob/master/javascript/bind/index.js)
 
 
+## React
+
+[新的diff算法](https://github.com/buynao/notes/blob/master/react/Fiber&Diff.md)
+
 ## 浏览器相关
 
 > 浏览器相关知识
