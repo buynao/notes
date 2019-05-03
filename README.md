@@ -67,6 +67,8 @@
  
 [回溯法](https://github.com/buynao/notes/blob/master/algorithm/Backtracking/index.js)
 
+[n数之和](https://github.com/buynao/notes/blob/master/algorithm/nsum/index.js)
+
 ## MongoDB
 
 > 在使用mongoddb搭建博客平台时常用的一些方法
