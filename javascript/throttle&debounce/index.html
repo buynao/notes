@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>节流和防抖</title>
+</head>
+<body>
+    <style>
+    body{
+        width: 1920px;
+        height: 1000px;
+    }
+    </style>
+    <button id='throttle'>throttle  count:<span id="throttleCount"></span>，1000毫秒触发一次</button>
+    <button id='debounce'>debounce  count:<span id="debounceCount"></span>，1000毫秒内重置触发</button>
+    <button id='normal'>normal  count:<span id="normalCount"></span>，正常点击触发</button>
+    <script src="./index.js"></script>
+</body>
+</html>

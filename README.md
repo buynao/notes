@@ -24,9 +24,11 @@
 
 [面试题：lazyman](https://github.com/buynao/notes/blob/master/javascript/lazyman/index.js)
 
-[ES5实现bind,call,apply](https://github.com/buynao/notes/blob/master/javascript/bind/index.js)
+[JS 手写实现bind,call,apply](https://github.com/buynao/notes/blob/master/javascript/bind/index.js)
 
-[JS 原生手写实现PromiseA+](https://github.com/buynao/notes/blob/master/promise/index.js)
+[JS 手写实现PromiseA+](https://github.com/buynao/notes/blob/master/promise/index.js)
+
+[JS 手写实现节流和防抖](https://github.com/buynao/notes/blob/master/throttle&debounce/index.js)
 
 
 ## React
