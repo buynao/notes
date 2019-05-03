@@ -26,6 +26,8 @@
 
 [ES5实现bind,call,apply](https://github.com/buynao/notes/blob/master/javascript/bind/index.js)
 
+[JS 原生手写实现PromiseA+](https://github.com/buynao/notes/blob/master/promise/index.js)
+
 
 ## React
 
