@@ -30,6 +30,8 @@
 
 [JS 手写实现节流和防抖](https://github.com/buynao/notes/blob/master/throttle&debounce/index.js)
 
+[查看当前运行的页面，产生了多少全局变量](https://github.com/buynao/notes/blob/master/webVars/index.js)
+
 
 ## 框架
 
