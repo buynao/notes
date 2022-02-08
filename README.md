@@ -20,7 +20,7 @@
 
 ## Typescript
 
-[公司内部分享：应用TS的成本收益分析](https://github.com/buynao/notes/tree/master/typescript/xx应用TS的成本收益分析.pdf)
+[公司内部分享：应用TS的成本收益分析](https://github.com/buynao/notes/blob/master/typesript/xx%E5%BA%94%E7%94%A8TS%E7%9A%84%E6%88%90%E6%9C%AC%E6%94%B6%E7%9B%8A%E5%88%86%E6%9E%90.pdf)
 
 ## 框架
 
