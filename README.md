@@ -1,28 +1,8 @@
-# 学习笔记
+# 随手记
 
 ---
 
-**记录一些自己的学习笔记**
-
-## 源码相关
-
-> ant-design - 日历
-
-[React Calendar](https://github.com/buynao/notes/blob/antd/calendar.md)
-
-## CSS
-
-> 关于css的学习笔记
-
-[Layout](https://github.com/buynao/notes/blob/master/css/layout/style.css)
-- 双列布局float：左定宽，右自适应
-- 三列布局float：左右定宽，中自适应
-- 三列布局position：左右定宽，中自适应
-- 三列布局圣杯布局：左右定宽，中自适应
-
 ## Javascript
-
-> 关于JS的学习笔记
 
 [单线程](https://github.com/buynao/notes/blob/master/javascript/singleThreaded.md)
 
@@ -36,8 +16,11 @@
 
 [JS 手写实现节流和防抖](https://github.com/buynao/notes/blob/master/throttle&debounce/index.js)
 
-[查看当前运行的页面，产生了多少全局变量](https://github.com/buynao/notes/blob/master/webVars/index.js)
+[查看当前运行的页面，产生了多少全局变量](https://github.com/buynao/notes/blob/master/javascript/webVars/index.js)
 
+## Typescript
+
+[公司内部分享：应用TS的成本收益分析](https://github.com/buynao/notes/tree/master/typescript/xx应用TS的成本收益分析.pdf)
 
 ## 框架
 
@@ -81,12 +64,30 @@
 
 [n数之和](https://github.com/buynao/notes/blob/master/algorithm/nsum/index.js)
 
-## MongoDB
 
-> 在使用mongoddb搭建博客平台时常用的一些方法
+## CSS
 
-[mongodb增删改查](https://github.com/buynao/notes/blob/master/mongod/%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.md)
+> 关于css的学习笔记
 
-[mongodb数据库集合](https://github.com/buynao/notes/blob/master/mongod/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%9B%86%E5%90%88.md)
+[Layout](https://github.com/buynao/notes/blob/master/css/layout/style.css)
+- 双列布局float：左定宽，右自适应
+- 三列布局float：左右定宽，中自适应
+- 三列布局position：左右定宽，中自适应
+- 三列布局圣杯布局：左右定宽，中自适应
 
-[mongodb数据库集合](https://github.com/buynao/notes/blob/master/mongod/%E6%98%A0%E5%B0%84%2C%E9%99%90%E5%88%B6%E8%AE%B0%E5%BD%95.md)
+
+## 项目
+
+> ant-design - 日历
+
+[React Calendar](https://github.com/buynao/notes/blob/master/antd/calendar.md)
+
+>react-pdf-signaturer
+
+[react-pdf-signaturer](https://github.com/buynao/react-pdf-signaturer/blob/main/notes.md)
+
+## 服务端
+
+> rendertron
+
+[](https://github.com/buynao/notes/blob/master/server/RenderTron.pptx)
