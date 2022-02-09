@@ -4,6 +4,8 @@
 
 ## Javascript
 
+[从ECMA规范了解JS执行上下文](https://github.com/buynao/notes/issues/1)
+
 [单线程](https://github.com/buynao/notes/blob/master/javascript/singleThreaded.md)
 
 [数组迭代方法汇总](https://github.com/buynao/notes/blob/master/javascript/array/iteration.md)
@@ -64,7 +66,6 @@
 
 [n数之和](https://github.com/buynao/notes/blob/master/algorithm/nsum/index.js)
 
-
 ## CSS
 
 > 关于css的学习笔记
@@ -75,12 +76,7 @@
 - 三列布局position：左右定宽，中自适应
 - 三列布局圣杯布局：左右定宽，中自适应
 
-
 ## 项目
-
-> ant-design - 日历
-
-[React Calendar](https://github.com/buynao/notes/blob/master/antd/calendar.md)
 
 >react-pdf-signaturer
 
