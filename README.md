@@ -1,5 +1,7 @@
 # 随手记
 
+[在线阅读](https://buynao.github.io/notes/)
+
 ---
 
 ## Javascript
