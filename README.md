@@ -55,6 +55,9 @@
 
 ## 算法
 
+二分查找
+- [二分查找](./algorithm/binarySearch/binarySearch.md)
+
 [01背包问题](./algorithm/01knapsack/index.md)
 
 [经典排序](./algorithm/sort/index.md)
