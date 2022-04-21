@@ -14,8 +14,6 @@
 
 [JS 手写实现bind,call,apply](./javascript/bind/index.md)
 
-[JS 手写实现PromiseA+](./promise/index.md)
-
 [JS 手写实现节流和防抖](./throttle&debounce/index.md)
 
 [查看当前运行的页面，产生了多少全局变量](./javascript/webVars/index.md)
